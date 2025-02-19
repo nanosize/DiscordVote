@@ -1,0 +1,25 @@
+discord:
+  token: "YOUR_DISCORD_BOT_TOKEN"
+  channelId: "DISCORD_CHANNEL_ID"
+
+poll:
+  # 投票の持続時間（例："30s", "1h", "3d", "1w", "2w" など）
+  duration: "1h"
+
+  # 投票の質問文（%month%、%date% などのプレースホルダーを置換可能）
+  question: "本日の投票 (%month%/%date%) です。どちらを選びますか？"
+
+  # 投票開始直前に送るメッセージ
+  preMessage: "投票開始直前のお知らせです (%month%/%date%)"
+
+  # 投票オプションの一覧
+  #   content: 投票で表示する文字 or 絵文字
+  #   endMessage: 最も得票数が多かった場合に送信するメッセージ
+  #   emojiName: デフォルト絵文字の場合は name, カスタム絵文字の場合は id を指定する（後述）
+  options:
+    - content: "👍"
+      endMessage: "@everyone %month%月の資源は更新されます! aaa"
+      emojiName: "👍"   # デフォルト絵文字の場合 { "name": "👍" }
+    - content: "👎"
+      endMessage: "bbb"
+      emojiName: "👎"
