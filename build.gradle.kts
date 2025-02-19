@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.noasaba.discordpoll"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 application {
     mainClass.set("com.noasaba.discordpoll.Main")

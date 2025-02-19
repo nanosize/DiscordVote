@@ -17,9 +17,9 @@ poll:
   #   endMessage: 最も得票数が多かった場合に送信するメッセージ
   #   emojiName: デフォルト絵文字の場合は name, カスタム絵文字の場合は id を指定する（後述）
   options:
-    - content: "👍"
-      endMessage: "@everyone %month%月の資源は更新されます! aaa"
+    - content: "項目1"
+      endMessage: "@everyone 投票結果は項目1でした"
       emojiName: "👍"   # デフォルト絵文字の場合 { "name": "👍" }
-    - content: "👎"
-      endMessage: "bbb"
+    - content: "項目2"
+      endMessage: "@everyone 投票結果は項目2でした"
       emojiName: "👎"
