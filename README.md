@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/v/release/noasaba/ResourceGenerator?include_prereleases)](https://github.com/nanosize/DiscordVote/releases)
+[![GitHub release](https://img.shields.io/github/v/release/nanosize/DiscordVote?include_prereleases)](https://github.com/nanosize/DiscordVote/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub issues](https://img.shields.io/github/issues/nanosize/DiscordVote)](https://github.com/nanosize/DiscordVote/issues)
 [![Last Commit](https://img.shields.io/github/last-commit/nanosize/DiscordVote)](https://github.com/nanosize/DiscordVote/commits)
